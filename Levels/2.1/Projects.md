@@ -1,0 +1,13 @@
+#### Semester 4: Optimization, Subspaces, and Foundational ML
+
+| Project Idea | Core Pillars Demonstrated | Description & Source Justification |
+| :--- | :--- | :--- |
+| **1. Gradient Descent Implementation for LR** | Calculus, Python/DS | Implement Stochastic Gradient Descent (SGD) from scratch to train a simple Linear Regression or Logistic Regression model. Demonstrate how the gradient (the vector of partial derivatives) is used to iteratively update parameters and minimize the loss function [13, 42, 66, 80-82]. |
+| **2. Fundamental Subspaces Analysis** | LA, Python | Analyze a rectangular matrix $A$. Find the dimension and bases for the four fundamental subspaces: $\mathbf{C}(A)$, $\mathbf{N}(A)$, $\mathbf{C}(A^T)$, and $\mathbf{N}(A^T)$. Discuss the orthogonality relationship between the row space and the nullspace [83-85]. |
+| **3. Feature Engineering and Transformation** | Python/DS, Stats | Using Pandas, apply advanced data transformation techniques such as creating dummy variables (`pd.get_dummies`), binning quantitative data, and scaling/normalizing features, preparing a raw dataset for complex machine learning models [86, 87]. |
+| **4. Multivariable Function Analysis** | Calculus, LA | Define a vector-scalar function $f(\mathbf{x}): \mathbb{R}^n \to \mathbb{R}$. Calculate its partial derivatives and compute the gradient vector $\nabla f(\mathbf{x})$. Use this to determine the direction of the steepest ascent/descent from a specific point [88, 89]. |
+| **5. Hypothesis Testing for Two Populations** | Stats, Python | Using two independent samples, perform a two-sample $t$-test to compare the means of two populations, ensuring that all assumptions (e.g., simple random sample, normality) are checked using Python tools (e.g., visualization/statistical tests) [90, 91]. |
+| **6. Non-linear Feature Modeling** | ML/DS, Python | Apply non-linear modeling techniques (e.g., fitting cubic polynomials or step functions) to model a predictor-response relationship in a dataset, analyzing whether the non-linear approach improves prediction over a simple linear fit [92, 93]. |
+| **7. Orthonormal Basis Construction** | LA, Python | Implement the Gram-Schmidt orthogonalization process in Python to transform a set of linearly independent vectors into a set of orthonormal vectors, forming an orthonormal basis [94, 95]. |
+| **8. Data Aggregation via Split-Apply-Combine** | Python/DS | Utilize the Pandas `groupby()` facility to perform complex group operations (split-apply-combine) on a DataFrame, aggregating data by various criteria and applying custom functions to groups for summary statistics [96-99]. |
+

@@ -1,0 +1,12 @@
+Introduction to Data and Basic Calculations
+
+| Project Idea | Core Pillars Demonstrated | Description & Source Justification |
+| :--- | :--- | :--- |
+| **1. Vector Algebra Toolkit** | LA, Python | Implement Python functions (using core Python lists or NumPy arrays) to perform vector addition, scalar multiplication, and calculate linear combinations ($\mathbf{c} \mathbf{v} + \mathbf{d} \mathbf{w}$) [5-8]. |
+| **2. Simple Linear System Solver** | LA, Python | Write a Python program to solve a $3 \times 3$ system of linear equations ($\mathbf{A} \mathbf{x} = \mathbf{b}$) using an explicit implementation of Gaussian elimination (Elementary Row Operations) and back substitution, demonstrating the direct solution method [9-12]. |
+| **3. Descriptive Statistics Report** | Stats, Python/DS | Choose a real dataset (like the `College` or `Auto` data set) and generate a numerical summary, including mean, standard deviation, and interquartile range (IQR) [13-16]. Use Python to produce histograms and boxplots to visualize the distribution shape [17, 18]. |
+| **4. Probability Simulation Engine** | Stats, Python | Implement a Python simulation (e.g., coin flips or dice rolls) to estimate the probability of a compound event (e.g., getting heads 5 times out of 10), illustrating the frequentist interpretation of probability [19-21]. |
+| **5. Core Python Data Wrangling** | Python/DS | Demonstrate fluent command of Python fundamentals by writing a program that processes nested lists or dictionaries, using control flow (if/elif/else), loops, and functions to transform data before exporting to a clean format [22, 23]. |
+| **6. Basic NumPy Array Operations** | Python/DS, LA | Use NumPy's `ndarray` objects to perform basic element-wise arithmetic and apply Universal Functions (`ufuncs`) to large arrays, highlighting the performance advantages over standard Python lists [24-26]. |
+| **7. Basic Calculus Function Analyzer** | Calculus, Python | Define a simple polynomial function $f(x)$ in Python. Calculate the average rate of change between two points, and find the instantaneous rate of change (derivative) at a single point, illustrating the concept of the derivative as the rate of change or slope [27, 28]. |
+| **8. Database Query Project** | Python/DS | Use Python to connect to a simple database (e.g., relational SQL) and demonstrate foundational skills in data storage and management by running basic queries to retrieve, filter, and structure data [29]. |

@@ -1,0 +1,13 @@
+#### Semester 5: Matrix Factorization, MLE, and Advanced Optimization
+
+| Project Idea | Core Pillars Demonstrated | Description & Source Justification |
+| :--- | :--- | :--- |
+| **1. Maximum Likelihood Estimation (MLE)** | Stats, Calculus, Python | Implement MLE to estimate the parameter $\theta$ for a simple parametric model (e.g., $p$ for Bernoulli/Binomial or $\mu, \sigma^2$ for Normal) based on observed data. Use optimization techniques or analytic solutions if available [100, 101]. |
+| **2. Least-Squares Projection Implementation** | LA, Python | Write a Python program that explicitly solves the least-squares problem $\mathbf{A} \mathbf{x} \approx \mathbf{b}$ for an overdetermined system. Calculate the projection $\mathbf{p} = \mathbf{A}\hat{\mathbf{x}}$ and verify that the error vector $\mathbf{e} = \mathbf{b} - \mathbf{p}$ is orthogonal to the column space $\mathbf{C}(A)$ [84]. |
+| **3. Multivariable Optimization using Gradient** | Calculus, Python | Implement the *vectorized* gradient descent algorithm to minimize a multivariable cost function $L(\mathbf{w})$ (e.g., logistic regression loss), utilizing NumPy for fast matrix operations [102, 103]. |
+| **4. Simple Bayesian Inference** | Stats, Python | Implement a basic Bayesian inference problem (e.g., updating a prior distribution for a coin's probability $p$ given new observed flips). Calculate and visualize the resulting posterior distribution [104-106]. |
+| **5. Multivariable Differentiation and Jacobian** | Calculus, LA | For a given vector-vector function $\mathbf{f}(\mathbf{x}): \mathbb{R}^n \to \mathbb{R}^m$ (similar to a single layer of a neural network), calculate the Jacobian matrix $D\mathbf{f}(\mathbf{x})$ analytically, demonstrating the concept of total differentiation [107, 108]. |
+| **6. Singular Value Decomposition (SVD) Basis** | LA, Python | Use NumPy to compute the SVD of a matrix $A$. Use the resulting matrices $U$ and $V$ to identify orthonormal bases for the four fundamental subspaces [109, 110]. |
+| **7. Kernelized Classification (SVM/Python)** | ML/DS, Python | Apply a Support Vector Machine (SVM) using a non-linear kernel (e.g., polynomial or radial basis) to a classification task. Explore the effect of hyperparameters like degree and $C$ on the resulting decision boundary [59, 111, 112]. |
+| **8. Data Merging and Relational Operations** | Python/DS | Integrate data from multiple sources (simulating multiple tables or files) using Pandas merge operations (`pd.merge()` or `pd.concat()`), utilizing different join types (inner, left, outer) and addressing index alignment issues [113-116]. |
+

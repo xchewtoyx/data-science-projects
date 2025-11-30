@@ -1,0 +1,13 @@
+#### Semester 8: Deep Learning and Network Analysis
+
+| Project Idea | Core Pillars Demonstrated | Description & Source Justification |
+| :--- | :--- | :--- |
+| **1. Basic Neural Network for Classification** | DL, Calc, Python | Build a simple multilayer neural network (MLP) for classification. Implement the forward pass, and conceptually explain how the backpropagation algorithm uses the chain rule to compute gradients for weight updates during stochastic gradient descent [76, 102, 132, 147-149]. |
+| **2. Convolutional Neural Network (CNN) Application** | DL, Python/DS | Use a modern Python library (e.g., PyTorch) to load and utilize a pretrained CNN model to classify images, demonstrating practical expertise in deep learning models for computer vision [150, 151]. |
+| **3. Network Flow and Kirchhoff's Laws** | LA, Algorithms, Python | Construct the incidence matrix $A$ for a graph (e.g., electrical circuit or flow network). Use linear algebra (finding the nullspace $\mathbf{N}(A)$ and left nullspace $\mathbf{N}(A^T)$) to analyze the flow balance and potential differences in the network, demonstrating the link between matrices and graph theory [152-154]. |
+| **4. Advanced Visualization (Interactive/Web)** | Python/DS | Use a library like Bokeh or D3.js (or its Python wrappers) to create an interactive, sophisticated data visualization for the web, demonstrating data storytelling skills [155-157]. |
+| **5. Optimization Constraints and Convexity** | Optimization, LA | Research a non-convex problem (e.g., Maximum-Cut) and discuss how it can be approximated using convex optimization techniques like Semidefinite Programming (SDP) relaxations, citing the field's complexity [71, 158, 159]. |
+| **6. Language Modeling with RNN/LSTM** | DL, Python | Use a recurrent neural network (RNN) or a Long Short-Term Memory (LSTM) network to model a simple sequential dataset (e.g., short text sequences or time series data like NYSE closing prices) [147, 148, 151, 160]. |
+| **7. Approximation Algorithms** | Algorithms, Python | Analyze a known computationally intractable problem (like the Knapsack Problem). Implement an approximation algorithm (e.g., using Linear Programming approximations) and evaluate its performance relative to an optimal solution on small instances [146]. |
+| **8. Numerical Linear Algebra Efficiency** | LA, Python | Write a benchmarking script to compare the computational efficiency (runtime) of solving $\mathbf{A} \mathbf{x} = \mathbf{b}$ using direct matrix inversion ($\mathbf{x} = \mathbf{A}^{-1}\mathbf{b}$), LU decomposition, and specialized iterative methods provided by NumPy/SciPy, validating that inversion is generally slower [25, 48, 161]. |
+
